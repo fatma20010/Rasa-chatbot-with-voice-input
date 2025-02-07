@@ -1,0 +1,20 @@
+version: "3.1"
+intents:
+  - greet
+  - ask_product_info
+  - ask_pricing
+  - ask_support
+  - ask_contact
+  - voice_input
+
+
+actions:
+  - action_handle_faq
+  - action_process_voice_input
+  - action_capture_voice
+
+responses:
+  utter_default:
+    - text: "I'm not sure I understand. Could you rephrase that?"
+
+ 

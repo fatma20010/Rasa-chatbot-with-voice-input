@@ -1,0 +1,12 @@
+version: "3.1"
+stories:
+- story: happy path
+  steps:
+  - intent: greet
+  - action: action_handle_faq
+  - intent: ask_product_info
+  - action: action_handle_faq
+- story: voice input
+  steps:
+  - intent: voice_input
+  - action: action_voice_input

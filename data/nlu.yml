@@ -1,0 +1,204 @@
+# data/nlu.yml
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - good morning
+    - good evening
+    - what's up
+    - how are you
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - see you soon
+    - have a good day
+
+- intent: thanks
+  examples: |
+    - thank you
+    - thanks
+    - appreciate it
+    - thanks a lot
+    - thank you very much
+
+- intent: ask_product_info
+  examples: |
+    - tell me about your product
+    - what does your product do
+    - product details
+    - what services do you offer
+    - what can your product do
+    - product overview
+    - tell me more about your solution
+
+- intent: ask_product_features
+  examples: |
+    - what features do you have
+    - what can your product do
+    - show me the features
+    - what functionality is included
+    - what are the capabilities
+    - feature list
+
+- intent: ask_product_demo
+  examples: |
+    - can I see a demo
+    - how do I get a demo
+    - demonstration request
+    - show me how it works
+    - schedule demo
+    - book demonstration
+
+- intent: ask_pricing
+  examples: |
+    - how much does it cost
+    - pricing information
+    - what are your prices
+    - pricing plans
+    - subscription cost
+    - price list
+    - payment plans
+
+- intent: ask_payment_methods
+  examples: |
+    - how can I pay
+    - payment options
+    - what payment methods do you accept
+    - payment types
+    - accepted payments
+
+- intent: ask_refund_policy
+  examples: |
+    - what's your refund policy
+    - can I get my money back
+    - refund information
+    - return policy
+    - money back guarantee
+
+- intent: ask_support
+  examples: |
+    - how can I get support
+    - customer service
+    - help desk
+    - technical support
+    - get help
+    - support options
+
+- intent: ask_technical_issue
+  examples: |
+    - I have a problem
+    - something's not working
+    - technical problem
+    - need technical help
+    - system issue
+    - bug report
+
+- intent: ask_maintenance
+  examples: |
+    - when is maintenance
+    - maintenance schedule
+    - system downtime
+    - planned outages
+    - maintenance times
+
+- intent: ask_account_setup
+  examples: |
+    - how do I create an account
+    - setup process
+    - account creation
+    - start using the system
+    - new account
+
+- intent: ask_password_reset
+  examples: |
+    - forgot password
+    - reset password
+    - password problems
+    - can't login
+    - password help
+
+- intent: ask_account_deletion
+  examples: |
+    - how do I delete my account
+    - remove my account
+    - cancel subscription
+    - close account
+    - account termination
+
+- intent: ask_training
+  examples: |
+    - how can I learn to use it
+    - training available
+    - learning resources
+    - tutorial
+    - how to use
+    - education resources
+
+- intent: ask_documentation
+  examples: |
+    - where is the documentation
+    - user guide
+    - manual
+    - docs
+    - documentation link
+
+- intent: ask_security
+  examples: |
+    - how secure is it
+    - security measures
+    - data security
+    - security features
+    - is it safe
+
+- intent: ask_data_privacy
+  examples: |
+    - how do you handle data
+    - privacy policy
+    - data protection
+    - GDPR compliance
+    - data handling
+
+- intent: ask_integration
+  examples: |
+    - can it integrate with
+    - integration options
+    - what systems do you support
+    - compatible systems
+    - API information
+
+- intent: ask_system_requirements
+  examples: |
+    - what do I need to run it
+    - system requirements
+    - minimum requirements
+    - compatible systems
+    - technical requirements
+
+- intent: ask_contact
+  examples: |
+    - how do I contact you
+    - contact information
+    - email address
+    - phone number
+    - office location
+
+- intent: ask_company_info
+  examples: |
+    - tell me about your company
+    - company background
+    - who are you
+    - company history
+    - about the company
+- intent: voice_input
+  examples: |
+    - voice input
+    - start voice
+    - listen to me
+    - voice command
+    - speech input
