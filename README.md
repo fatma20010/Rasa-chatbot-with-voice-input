@@ -50,16 +50,3 @@ rasa train
 ```bash
 rasa run actions --port 5058   
 rasa shell --endpoints endpoints.yml
-
-## Usage
-- Start chatting with the bot using text input  
-- Use voice commands (if configured)  
-- Ask FAQs about products, services, or support  
-
-## Features To Be Added
-
-- Web interface integration  
-- More training data  
-- Enhanced voice recognition  
-- Multi-language support  
-- Integration with external APIs  
